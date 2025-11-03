@@ -1,38 +1,64 @@
-body {
-    background-image: url(https://external-preview.redd.it/r3uaVHpV-UbisWqz_cutJsbUflEuaqUb4DEKRVBuTn0.jpg?auto=webp&s=21915d1d9ba56338be728127b3a96fb442190cd5);
-    size: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-    background-color: black;
-    
-}
-
-
-a { 
-    text-decoration: none;
+a {
     color: white;
-    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-.d1 {
+a:hover {
+    opacity: 0.7;
+}
+
+
+.logo {
+    color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 10px;
+}
+
+nav {
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #490000;
+    height: 8vh;
+}
+
+main {
+     background-color: #ffffff;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    font-size: 12.5px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.t1 {
+    font-size: 1.5rem;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 80px;
+    margin-left: 80px;
     
 }
 
-.d2 {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 250px;
-    margin-top: -22px;
-    
-}
-
-.red {
-    border-color: #070647;
-    border-radius: 3px;
-    background-color: #790404;
-    background-size: 100px;
+.t1 span {
+   color:  #c50000;
 }
