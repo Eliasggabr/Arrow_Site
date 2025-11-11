@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-body {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pexels-introspectivedsgn-6654177.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -38,9 +32,11 @@ nav {
 }
 
 main {
-    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./imgs/pexels-introspectivedsgn-6654177.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-size: 100%;
-    height: 92vh;
+    height: 100vh;
 }
 
 .nav-list {
@@ -81,6 +77,3 @@ main {
     color: #b51010;
     margin-top: 2px;
 }
-
-
-
